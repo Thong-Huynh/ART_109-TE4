@@ -1,0 +1,59 @@
+		Design 1: http://www.csszengarden.com/221/
+
+HTML:
+<h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+
+CSS:
+    -webkit-text-size-adjust: 100%;
+    font-family: "ff-meta-web-pro", sans-serif;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    background: #0d2c40 url(icon-star.svg) no-repeat left bottom;
+    background-size: 101%;
+    float: right;
+    color: #ffffff;
+    font-size: 250%;
+    line-height: 1.25em;
+    width: 50%;
+    height: 20.019em;
+    margin: 0 0 0 0;
+    padding: 6em 0.5em 0 0.5em;
+    box-sizing: border-box;
+
+------------------------------------------------------------------------------------------
+
+		Design 2: http://www.csszengarden.com/217/
+
+HTML:
+<div class="extra1" role="presentation"></div>
+
+CSS:
+    color: #333;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    font-size: 110%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(51,55,69,0.9);
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    z-index: 1;
+
+------------------------------------------------------------------------------------------
+
+		Design 3:http://www.csszengarden.com/218/
+
+HTML:
+<a href="/221/" class="design-name">Mid Century Modern ::after</a>
+
+CSS:
+.design-name:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    color: #3f3d3a;
+    content: ".....................................................................................................................";
+}
